@@ -1,0 +1,31 @@
+Define the correct styles for the ul and li elements to arrange the list elements next to each other horizontally without any bullet points.
+  ul {
+     list-style:none;
+     }
+  li {display:inline;
+     }
+
+
+Your HTML page has 2 div elements with the ids "left" and "right". Define the correct CSS styles to make the "left" div take 60% of the page, and the "right" div 40% of the page.
+  #left {
+    display: inline-block;
+    width:60%;}
+  #right{
+    display: inline-block;
+    width: 40%;}
+
+
+div{
+	display:inline-block;
+	border:1px solid green;
+}
+
+
+What will be the total width of the following div?
+
+div {  
+  width: 100px;
+  padding: 10px; 
+  margin: 5px;
+}
+120px
